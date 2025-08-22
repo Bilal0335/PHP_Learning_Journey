@@ -1,7 +1,7 @@
 <?php
-echo "========== Ternary Operator Examples ======<br><br>";
+echo "======== Ternary Operator Examples =======<br><br>";
 
-// ! ========= Ternary Operator Syntax Explanation ========
+// ! ======= Ternary Operator Syntax Explanation ======
 // Syntax:
 // (condition) ? value_if_true : value_if_false;
 // (condition) → Jo condition check karni hai (true/false)
@@ -25,12 +25,12 @@ echo "Number $num is: ".($num > 0 ? "Positive" : ($num < 0 ? "Negative" : "Zero"
 $age = 18;
 echo "Age $age: ".($age >= 18 ? "Adult" : "Minor") . "<br>";
 
-// ============= Example 5 — Max of Two Numbers =============
+// =========== Example 5 — Max of Two Numbers ===========
 $a = 10;
 $b = 20;
 echo "Max of $a and $b is: ".($a > $b ? $a : $b) . "<br>";
 
-// ============= Example 6 — Grade Assignment =============
+// =========== Example 6 — Grade Assignment ===========
 $marks = 75;
 $grade = ($marks >= 80) ? "A+" :
          (($marks >= 70) ? "A" :
@@ -38,7 +38,7 @@ $grade = ($marks >= 80) ? "A+" :
          (($marks >= 50) ? "C" : "Fail"))); // Nested ternary example
 echo "Marks: $marks, Grade: $grade<br>";
 
-// ============= Example 7 — Weekday / Weekend =============
+// =========== Example 7 — Weekday / Weekend ===========
 $day = 3;
 echo "Day $day is: ".($day == 6 || $day == 7 ? "Weekend" : "Weekday") . "<br>";
 
